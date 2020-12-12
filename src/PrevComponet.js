@@ -11,6 +11,7 @@ const PrevComponet = ({ style, titleSet, styleIndex }) => {
     return (
         <div className='prevcomponet'>
             <div className={style? style[styleIndex]+ " themebox" : 'extraLight-theme themebox'}>
+                <p>Preview:</p>
                 {titleSet? titleSet[styleIndex] : 'Previous Theme'}
             </div>
         </div>

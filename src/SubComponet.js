@@ -13,6 +13,7 @@ const SubComponet = ({ style, titleSet, styleIndex=0 }) => {
     return (
         <div className='subcomponet'>
             <div className={style? style[styleIndex]+ " themebox" : 'extraLight-theme themebox'}>
+                <p>Preview:</p>
                 {titleSet? titleSet[styleIndex] : 'Next Theme'}
             </div>
         </div>

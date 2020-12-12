@@ -35,7 +35,7 @@ function App() {
   }
 
   return (
-    <div className={themeCount? themeSet[themeCount] : 'extraLight-theme'}>
+    <div className={themeCount? themeSet[themeCount]+ ' app' : 'extraLight-theme app'}>
 
             <button 
                 className={themeSet[nextTheme()] + ' nextThemeButton'}

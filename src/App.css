@@ -1,3 +1,8 @@
+
+.app{
+  min-height: 100vh;
+}
+
 body {
   margin: 0;
   text-align: center;
@@ -71,6 +76,7 @@ nav {
 .subDiv{
   display:flex;
   width: 100%;
+  min-height: 80vh;
   flex-direction: row-reverse;
   justify-content: space-evenly;
   align-items:center;

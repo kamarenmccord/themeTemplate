@@ -1,15 +1,16 @@
 .subcomponet{
-    margin-top: 20px;
     height: 400px;
     width: 100%;
     display:flex;
     justify-content: center;
+    align-items:center;
 }
 
 .themebox{
-    height: 300px;
+    height: 200px;
     width: 300px;
     display:flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     border: 1px solid blue;
